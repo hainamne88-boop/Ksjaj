@@ -3742,18 +3742,18 @@ l_ImageButton_0.MouseButton1Click:Connect(function()
     end
 end)
 local v484 = v466:MakeTab({"Th\195\180ng Tin | Info", "info"})
-local v485 = v466:MakeTab({"Farming", "home"})
-local v486 = v466:MakeTab({"Auto Fishing", "rbxassetid://89011061360885"})
-local v487 = v466:MakeTab({"Quest | Items", "swords"})
-local v488 = v466:MakeTab({"Volcano Dojo", "cake"})
-local v489 = v466:MakeTab({"Sea Event", "waves"})
-local v490 = v466:MakeTab({"Race V4", "crown"})
-local v491 = v466:MakeTab({"Raid Fruits", "cherry"})
-local v492 = v466:MakeTab({"Fruits | Check Stock", "apple"})
-local v493 = v466:MakeTab({"Teleport", "locate"})
-local v494 = v466:MakeTab({"PvP,Player", "user"})
-local v495 = v466:MakeTab({"Shop", "shoppingCart"})
-local v496 = v466:MakeTab({"Settings", "settings"})
+local v485 = v466:MakeTab({"cày", "rbxassetid://89011061360885"})
+local v486 = v466:MakeTab({"tự động câu cá(vạn cân:)", "rbxassetid://89011061360885"})
+local v487 = v466:MakeTab({"nhiệm vụ và vật phẩm", "rbxassetid://89011061360885"})
+local v488 = v466:MakeTab({"sự kiện núi lửa by mlp", "rbxassetid://89011061360885"})
+local v489 = v466:MakeTab({"sự kiện biển", "rbxassetid://89011061360885"})
+local v490 = v466:MakeTab({"tộc V4", "rbxassetid://89011061360885"})
+local v491 = v466:MakeTab({"tập kích", "rbxassetid://89011061360885"})
+local v492 = v466:MakeTab({" trái và xem stock", "rbxassetid://89011061360885"})
+local v493 = v466:MakeTab({"dịch chuyển", "rbxassetid://89011061360885"})
+local v494 = v466:MakeTab({"player", "rbxassetid://89011061360885"})
+local v495 = v466:MakeTab({"cửa hàng", "rbxassetid://89011061360885"})
+local v496 = v466:MakeTab({"cài đặt", "rbxassetid://89011061360885"})
 v484:AddDiscordInvite({
     Name = "TikTok - Mlp",
     Description = "hnam.script",
@@ -3809,7 +3809,7 @@ local _ = v485:AddDropdown({
 })
 local _ = v485:AddSection({"Main Farm"})
 v485:AddToggle({
-    Name = "Auto Farm Level 1-2650",
+    Name = "Auto Farm Level v1",
     Description = "T\225\187\177 \196\145\225\187\153ng farm c\225\186\165p",
     Default = false,
     Callback = function(v509)
@@ -3916,7 +3916,7 @@ spawn(function()
     end
 end)
 v485:AddToggle({
-    Title = "Farm Level New 2650 - 2750",
+    Title = "Farm Level v2=))",
     Description = "C\195\160y C\225\186\165p \225\187\158 \196\144\225\186\163o M\225\187\155i",
     Value = false,
     Callback = function(v515)
@@ -6331,7 +6331,7 @@ if World3 then
                                     if not l_Character_7:FindFirstChild("Tushita") and not l_Backpack_1:FindFirstChild("Tushita") then
                                         if not v798 then
                                             game.StarterGui:SetCore("SendNotification", {
-                                                Title = "NTTLOL",
+                                                Title = "hehe",
                                                 Text = "Use! - Yama or Tushita",
                                                 con = "rbxassetid://110657725541747",
                                                 Duration = 10
@@ -8696,7 +8696,7 @@ if l_LocalPlayer_18.Character then
     v1135(l_LocalPlayer_18.Character)
 end
 v494:AddSlider({
-    Title = "Speed Ch\225\186\161y by NTT",
+    Title = "Speed Ch\225\186\161y",
     Min = 26,
     Max = 300,
     Default = getgenv().WalkSpeedValue,
@@ -8709,7 +8709,7 @@ v494:AddSlider({
     end
 })
 v494:AddSlider({
-    Title = "Nh\225\186\163y Cao by NTT",
+    Title = "Nh\225\186\163y Cao",
     Min = 50,
     Max = 500,
     Default = getgenv().JumpValue,
@@ -8723,7 +8723,7 @@ v494:AddSlider({
 })
 v494:AddToggle({
     Name = "Delete Lava",
-    Description = "Xo\195\161 Lava Tr\195\161nh B\225\187\139 M\225\186\165y Th\225\186\177ng Kid L\225\187\143 D\195\172m Lava :))",
+    Description = "Xoá lava đỡ bị bọn nó địt=))",
     Default = false,
     Callback = function(v1141)
         _G.RemoveLava = v1141
@@ -9140,7 +9140,7 @@ v495:AddButton({
     end
 })
 local _ = v496:AddSection({"Settings Farming"})
-v496:AddParagraph({Title = "Unban Fast Attack - M1 Fruit", Content = "On: \226\156\133"})
+v496:AddParagraph({Title = " Fast Attack - M1 Fruit", Content = "On: \226\156\133"})
 loadstring(game:HttpGet("https://raw.githubusercontent.com/NTTLOL/UIredzLibrary/refs/heads/main/UI%20Redz.txt"))()
 v496:AddToggle({
     Name = "Bring Mod",

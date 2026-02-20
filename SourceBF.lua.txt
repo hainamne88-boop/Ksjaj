@@ -4869,12 +4869,11 @@ if World1 then
         "Wysper",
         "Thunder God",
         "Cyborg",
-        "Saber Expert"
+        "Saber"
     }
 elseif not World2 then
     if World3 then
         v658 = {
-            "",
             "Tyrant of the Skies",
             "Stone",
             "Island Empress",
